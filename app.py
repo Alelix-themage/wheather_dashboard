@@ -3,6 +3,10 @@ import requests
 from API import API
 import pandas as pd
 
+#Dashboard de temperaturas
+# Autor: Alessandro Junior
+
+
 def weather_informations(data):
     '''Extrai e retorna a temperatura a partir dos dados do clima.'''
     temp = data['main']['temp']
