@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from apy import API
+from API import API
 import pandas as pd
 
 def weather_informations(data):
